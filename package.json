@@ -1,21 +1,19 @@
 {
   "name": "brutaljs",
   "version": "1.0.0",
-  "description": "Brutal.io bots lol",
+  "description": "Brutal.io bot client",
   "keywords": [
     "brutal"
   ],
   "license": "ISC",
-  "author": "lunarfractal",
+  "author": "none",
   "type": "commonjs",
-  "main": "main.js",
+  "main": "Brutal.js",
   "scripts": {
-    "test": "node main.js"
+    "test": "echo No test specified"
   },
   "dependencies": {
-    "socks-proxy-agent": "^8.0.5",
     "tiny-emitter": "^2.1.0",
-    "tor-control": "^0.0.3",
     "ws": "^8.18.1"
   }
 }
