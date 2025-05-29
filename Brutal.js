@@ -328,6 +328,8 @@ class Bot extends TinyEmitter {
                     offset = res.offset;
 
                     var entity = this.CreateEntity(entityType, entitySubType);
+			entity.type = entityType;
+			entity.subType = entitySubType;
                     if(entity) {
                         entity.nick = nick;
                         entity.id = id;
